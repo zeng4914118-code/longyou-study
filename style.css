@@ -1,0 +1,26 @@
+:root{--ink:#2b2a27;--paper:#f6f1e7;--card:#fffdf8;--bamboo:#4f6f52;--brick:#9a4b34;--gold:#b88a2e;--line:#ddd3bf}
+*{box-sizing:border-box}body{margin:0;font:16px/1.85 "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--paper)}
+header.top{background:linear-gradient(rgba(30,25,20,.55),rgba(30,25,20,.7)),url(img/photos/shiku1.jpg) center/cover;color:#fff;padding:64px 6vw 40px}
+header.top h1{margin:0 0 6px;font-size:34px;letter-spacing:2px}header.top p{margin:4px 0;opacity:.92}
+nav{position:sticky;top:0;background:#2b2a27;z-index:9;padding:8px 6vw;display:flex;gap:18px;flex-wrap:wrap}nav a{color:#f1e7cf;text-decoration:none;font-size:14px}nav a:hover{color:#fff;text-decoration:underline}
+main{max-width:1080px;margin:0 auto;padding:24px 20px 80px}
+h2{font-size:26px;border-left:6px solid var(--brick);padding-left:12px;margin-top:56px}h3{font-size:19px;color:var(--brick);margin-top:30px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:16px 0;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.concl{background:#fbf3e0;border:2px solid var(--gold)}.concl li{margin:6px 0}
+.tag{display:inline-block;font-size:12px;padding:0 8px;border-radius:10px;color:#fff;margin-right:6px;line-height:20px;vertical-align:1px}
+.f{background:#3c6e8f}.i{background:#b6772c}.s{background:#4f6f52}.u{background:#888}
+table{border-collapse:collapse;width:100%;font-size:14.5px;margin:12px 0;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}th{background:#efe6d2}
+.src{font-size:12px;color:#7a6f5c}.src a{color:#7a6f5c}
+figure{margin:14px 0}figure img{width:100%;border-radius:8px;display:block}figcaption{font-size:13px;color:#6b6252;margin-top:4px}
+.grid{display:grid;gap:14px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:760px){.g2,.g3{grid-template-columns:1fr}}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.kpi div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}.kpi b{font-size:24px;color:var(--brick);display:block}
+.bar{height:16px;background:var(--bamboo);border-radius:3px}.barr{background:var(--brick)}
+.warn{background:#fdeceb;border:1px solid #e3a9a3;border-radius:8px;padding:10px 14px}
+a{color:#2c6a8e}.small{font-size:13px;color:#6b6252}
+.g4{grid-template-columns:repeat(4,1fr)}@media(max-width:760px){.g4{grid-template-columns:1fr 1fr}}
+.plan img{max-height:520px;object-fit:contain;background:#fff;border:1px solid var(--line)}
+figure a{display:block}
+.note{background:#eef4ee;border:1px solid #b9cfba;border-radius:8px;padding:10px 14px;font-size:14px}
+.copy{background:#f7f0e0;border:1px dashed #c9b27a;border-radius:8px;padding:8px 14px;font-size:13px;color:#6b5a2e}
+.svgbox{background:#fffdf8;border:1px solid var(--line);border-radius:10px;padding:10px;margin:14px 0}.svgbox svg{width:100%;height:auto;display:block}
