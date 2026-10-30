@@ -19,7 +19,7 @@ figure{margin:14px 0}figure img{width:100%;border-radius:8px;display:block}figca
 .warn{background:#fdeceb;border:1px solid #e3a9a3;border-radius:8px;padding:10px 14px}
 a{color:#2c6a8e}.small{font-size:13px;color:#6b6252}
 .g4{grid-template-columns:repeat(4,1fr)}@media(max-width:760px){.g4{grid-template-columns:1fr 1fr}}
-.plan img{max-height:520px;object-fit:contain;background:#fff;border:1px solid var(--line)}
+.plan img{max-height:900px;width:auto;max-width:100%;margin:0 auto;object-fit:contain;background:#fff;border:1px solid var(--line)}
 figure a{display:block}
 .note{background:#eef4ee;border:1px solid #b9cfba;border-radius:8px;padding:10px 14px;font-size:14px}
 .copy{background:#f7f0e0;border:1px dashed #c9b27a;border-radius:8px;padding:8px 14px;font-size:13px;color:#6b5a2e}
